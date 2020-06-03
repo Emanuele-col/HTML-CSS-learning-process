@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento senza titolo</title>
+</head>
+
+<body>
+	<p>esempio di tabella semplice senza stile CSS:</p>
+	<table>
+		<tr>
+			<td>casella 1</td>
+			<td>casella 2</td>
+			<td>casella 3</td>
+		</tr>
+		<tr>
+			<td>casella 4</td>
+			<td>casella 5</td>
+			<td>casella 6</td>
+		</tr>
+		<tr>
+			<td>casella 7</td>
+			<td>casella 8</td>
+			<td>casella 9</td>
+		</tr>
+	</table>
+	<p>tabella semplica ma con l'elemento table heading <strong>(th)</strong>:</p>
+	<table>
+	<tr>
+			<td></td>
+			<th scope="col">cella_t 1</th>
+			<th scope="col">cella_t 2</th>
+	</tr>
+	<tr>
+			<th scope="row">cella_t 3</th>
+			<td>dato 1</td>
+			<td>dato 2</td>
+	</tr>
+	<tr>
+			<th scope="row">cella_t 4</th>
+			<td>dato 3</td>
+			<td>dato 4</td>
+	</tr>
+	</table>	
+	<p>tabella con estensione di cella su più colonne</p>
+	<table>
+		<tr>
+			<td></td>
+			<th scope="col">titolo1</th>
+			<th scope="col">titolo2</th>
+			<th scope="col">titiolo_ex</th>
+		</tr>
+		<tr>
+			<th scope="row">titolo3</th>
+			<td colspan="2">dato1</td>
+			<td>dato_ex1</td>
+		</tr>
+		<tr>
+			<th scope="row">titolo4</th>
+			<td>dato2</td>
+			<td>dato3</td>
+			<td>dato_ex2</td>
+		</tr>
+	</table>
+	<p>tabella con estensione di cella su più righe</p>
+	<table>
+		<tr>
+		<td></td>
+		<th scope="col">titolo1</th>
+		<th scope="col">titolo2</th>
+		</tr>
+		<tr>
+		<th scope="row">titolo3</th>
+		<td>dato 1</td>
+		<td>dato 2</td>
+		</tr>
+		<tr>
+		<th scope="row">titolo4</th>
+		<td>dato5</td>
+		</tr>
+		<tr>
+		<th scope="row">titolo5</th>
+		<td>dato6</td>
+		<td>dato7</td>
+		</tr>
+	</table>
+	<p>tabella con elementi extra (thead, tbody, tfoot):</p>
+	<table>
+		<thead>
+			<tr>
+				<td></td>
+				<th scope="col">titolo1</th>
+				<th scope="col">titolo2</th>
+				<th scope="col">titolo3</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="row">titolo4</th>
+				<td>dato1</td>
+				<td>dato2</td>
+				<td>dato3</td>
+			</tr>
+			<tr>
+				<th scope="row">titolo5</th>
+				<td>dato4</td>
+				<td>dato5</td>
+				<td>dato6</td>
+			</tr>
+			<tr>
+				<th scope="row">titolo6</th>
+				<td>dato7</td>
+				<td>dato8</td>
+				<td>dato9</td>
+			</tr>
+			<tr>
+				<th scope="row">titolo7</th>
+				<td>dato10</td>
+				<td>dato11</td>
+				<td>dato12</td>
+			</tr>
+			<tr>
+				<th scope="row">titolo8</th>
+				<td>dato13</td>
+				<td>dato14</td>
+				<td>dato15</td>
+			</tr>
+			<tr>
+				<th scope="row">titolo9</th>
+				<td>dato16</td>
+				<td>dato17</td>
+				<td>dato18</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th scope="row">titolo_ex</th>
+				<td>dato_ex1</td>
+				<td>dato_ex2</td>
+				<td>dato_ex3</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>
