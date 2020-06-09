@@ -3,8 +3,24 @@
 <head>
 <meta charset="utf-8">
 <title>Documento senza titolo</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+	<script type="text/javascript">
+		var params = {movie:"video/flash/video_inflash.swf"}
+		swfobject.embedSWF("video/flash/video_in_flash.swf","bird", "400", "300", "8.0.0");
+	</script>
 </head>
 
 <body>
+	<p>segue un div contenente video in flash (tramite lo script SWFObject e con id "bird" specificato nell' head)</p>
+	<div id="bird"><p>questo contenuto non può essere visto se il tuo browser non supporta flash player 8.0.0 oppure superiore se il video non è stato inserito ;) </p></div>
+	<br>
+	<p>il metodo soprastante è sconsigliato vista la direzione che i siti web moderni stanno percorrendo.</p>
+	<br>
+	<p>segue il tag "video" introdotto da HTML5 (sono presenti gli attributi "preload" e "controls"</p>
+	<video preload="metadata" controls>
+		<source src="Video/MP4/video_in_MP4" type="video/mp4">
+		<source src="Video/WebM/video_in_WebM" type="video/WebW">
+		<p>a video description</p>
+	</video>
 </body>
 </html>
