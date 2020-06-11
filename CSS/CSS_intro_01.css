@@ -1,3 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+		*{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";} /*selettore universale*/
+		h1{color: red; text-decoration: line-through;} /*selettore di tipo*/
+		.classe_01 {} /*selettore di classe*/
+		p.classe_01 {} /*selettore di classe*/
+		#paragrafo_02 {} /*selettore di id */
+		ul>li {} /*selettore figlio*/
+		ul li {} /*selettore del discendente*/
