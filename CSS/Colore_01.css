@@ -1,3 +1,66 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*utilizzo il nome del colore*/
+h1{color: darkcyan;}
+/*utilizzo il valore esadecimale*/
+h2{color: #ee3e80;}
+/*utilizzo il valore RGB*/
+.lorem{color: rgb(100,100,90,);}
+/*utilizzo la regola rgba con rgb secondaria per garantire una maggiore compatibilità*/
+#p1{
+	background-color: rgb(238,62,128);
+	background-color: rgba(238,62,128,0.50);	
+}
+/*utilizzo la regola opacity con rgb associato. Opacity miodifica l' opacità anche del contenuto*/
+#p2{
+	background-color: rgb(0,187,136);
+	opacity: 0.5;
+}
+/*utilizzo la regola hsl insieme a rgb per garantire una maggiore compatibilità*/
+#p3{
+	background-color: rgb(200,200,200);
+	background-color: hsl(0,0%,78%);
+}
+/*utilizzo la regola hsla insieme al codice esadecimale per garantire una maggiore compatibilità*/ 
+#p4{
+	background-color: #6E1517;
+	background-color: hsla(359,67%,26%,0.5);
+}
+/* end of lesson */
+#p5{
+	background-color: #36376B;
+	background-color: rgba(54,55,107,0.5);
+}
+#p6{
+	background-color: rgb(146,145,43);
+	background-color: rgba(146,145,43,0.75);
+}
+#p7{
+	background-color: #9E7343;
+}
+#p8{
+	background-color: #FF65E1;
+	background-color: hsla(312,100%,70%,0.80);
+}
+#p9{
+	background-color: #9FFF72;
+}
+#p10{
+	background-color: #CB7577;
+}
+#p11{
+	background-color: #43C5E7;
+	background-color: hsla(192,77%,58%,0.77);
+}
+#p12{
+	background-color: rgb(95,42,94);
+	color: white;
+}
+#p13{
+	background-color: rgb(118,70,237);
+	background-color: rgba(118,70,237,0.80);
+}
+#p14{
+	background-color: #E3E833;
+}
