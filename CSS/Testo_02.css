@@ -70,5 +70,5 @@ em{font-style: italic;}
 ul li a:link {text-decoration:none;}
 ul li a:visited {color: black;}
 ul li a:hover {text-decoration:underline; font-weight:bold;}
-ul li a:active {color: red;}
 ul li a:focus {}
+ul li a:active {color: red;}
