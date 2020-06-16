@@ -4,5 +4,71 @@
 /*rendo l'h1 maiuscolo con un carattere più grande in scala di 16.*/
 h1{
 	text-transform: uppercase;
-	font-family: Impact, Haettenschweiler;
+	font-family: Impact, Haettenschweiler, fantasy;
 	font-size: 32px;}
+
+#h2_primoblocco{font-family: Arial, Times, sans-serif;}
+#h3_primoblocco{font-family: Courier, "Courier New", monospace;}
+#p_primoblocco{font-family: Gerogia, Times, serif;}
+
+.h1-1{font-size: 24px;}
+.h-2{font-size: 18px;}
+.h-3{font-size: 14px;}
+.h-4{font-size: 12px;}
+.h1-2{font-size: 150%;}
+.h-5{font-size: 112.5%;}
+.h-6{font-size: 87.5%;}
+.h-7{font-size: 75%;}
+.h1-3{font-size: 1.5em;}
+.h-8{font-size: 1.125em;}
+.h-9{font-size: 0.875em;}
+.h-10{font-size: 0.75em;}
+.h1-4{font-size: 32px;}
+.h-11{font-size: 24px;}
+.h-12{font-size: 18px;}
+.h-13{font-size: 16px;}
+.h1-5{font-size: 200%;}
+.h-14{font-size: 150%;}
+.h-15{font-size: 112.5%;}
+.h-16{font-size: 100%;}
+.h1-6{font-size: 2em;}
+.h-17{font-size: 1.5em;}
+.h-18{font-size: 1.125em;}
+.h-19{font-size: 1em;}
+
+@font-face{
+	font-family:'nomedellafamiglia';
+	src: url('posizione/del/carattere_personale');}
+
+p{
+	font-family: Arial, Times, sans-serif;
+  	text-decoration: none;
+  	font-size: 16px;}
+
+/*utilizzo la proprietà font-weight sul tag strong */
+strong{font-weight: bold;}
+
+/*utilizzo la proprietà font-style sul tag em */
+em{font-style: italic;}
+
+#h2_secondoblocco{text-transform: uppercase;}
+#h3_secondoblocco{text-transform: lowercase;}
+#p_secondoblocco{text-transform: capitalize;}
+
+.decoration-none{text-decoration: none;}
+.decoration-underline{text-decoration: underline;}
+.decoration-overline{text-decoration: overline;}
+.decoration-line-through{text-decoration: line-through;}
+.line-height{line-height: 1.6em;} /*il valore di questa proprietà è di solito 1.4em / 1.5 em come valore minimo. NON usare i valori in pixel ma in em. */ 
+
+#h2_terzoblocco{text-align: center; text-transform: uppercase; font-size: 24px; font-weight: bold;}
+#h3_terzoblocco{text-align: left; font-weight: normal;}
+#p_terzoblocco{text-align: right; font-style: italic;}
+
+#text-shadow{text-transform:uppercase; font-size: 24px; text-shadow: -2px 2px rgba(146,145,43,0.75); text-align: center;}
+
+ul li a:link {text-decoration:none;}
+ul li a:visited {color: black;}
+ul li a:hover {text-decoration:underline; font-weight:bold;}
+ul li a:active {color: red;}
+ul li a:focus {}
