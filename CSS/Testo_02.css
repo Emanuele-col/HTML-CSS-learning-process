@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*rendo l'h1 maiuscolo con un carattere più grande in scala di 16.*/
+h1{
+	text-transform: uppercase;
+	font-family: Impact, Haettenschweiler;
+	font-size: 32px;}
