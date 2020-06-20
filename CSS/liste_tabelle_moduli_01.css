@@ -1,3 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
 
+li{margin: 15px 0px;}
+#lista1{list-style-type:none; list-style-image: url(#);}
+
+#lista2{list-style-type:circle; list-style-position:outside;}
+
+#lista3{list-style-type:square; list-style-position:outside;}
+
+#lista4{width: 800px; list-style-type:decimal-leading-zero; list-style-position: inside;}
+
+#lista5{width: 800px; list-style-type:lower-roman; list-style-position: outside;}
+
+#lista6{width: 800px; list-style-type:upper-alpha; list-style-position: inside;}
+
+#lista7{width: 800px; list-style-type:decimal; list-style-position: outside;}
+
+#lista8{width: 800px; list-style-type:upper-roman; list-style-position: inside;}
+
+table {width: 1000px; empty-cells: show; border-width: 5px;border-style: ridge; border-color: #94631D; border-collapse: collapse; margin: 15px;}
+th, td{height: 50px;border-width: 5px; border-style: ridge; border-color: #94631D; background-color: cornsilk;}
+
+fieldset {width: 190px; border-width: 2px; border-style:solid; border-color: black; text-align: right; padding: 10px 0 0 10px; margin: 15px}
+legend {border-width: 2px; border-style:solid;}
+label {display: block; text-align: left;}
+#username, #password, #email{background-image: url(#);}
+button {margin: 15px; margin-left: 0; border-width: 5px; border-style: ridge;}
+button:hover{box-shadow: -3px 3px black;}
+button:active{box-shadow: none;}
+input:focus{cursor: default;}
