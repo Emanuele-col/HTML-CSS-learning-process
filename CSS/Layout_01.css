@@ -1,3 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+#intro{width: 980px; border: none;}
+
+div{border-width: 2px; border-color: black; border-style: solid;}
+
+#standard_position{width: 960px; background-color: hsla(0,0%,75%,1.00); position: static;}
+
+#relative_position{width: 960px; background-color: hsla(0,0%,75%,1.00); position: relative; left: 10%;}
+
+#absolute_position{width: 460px; background-color: hsla(0,0%,75%,1.00); position: absolute; left: 70%; z-index: 10;}
+
+#fixed_position{width: 460px; background-color: hsla(0,0%,75%,1.00); position: fixed; top: 500px; right: 305px; z-index: -1;}
+
+.float_right{float: left;}
+
+.div1{width: 310px; background-color: hsla(0,0%,75%,1.00); margin: 10px 10px 10px 0px;}
+
+.clear_float{clear: left; border: none;}
