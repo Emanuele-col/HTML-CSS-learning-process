@@ -13,7 +13,7 @@ div{border-width: 2px; border-color: black; border-style: solid;}
 
 #fixed_position{width: 460px; background-color: hsla(0,0%,75%,1.00); position: fixed; top: 500px; right: 305px; z-index: -1;}
 
-.float_right{float: left;}
+.float_left{float: left;}
 
 .div1{width: 310px; background-color: hsla(0,0%,75%,1.00); margin: 10px 10px 10px 0px;}
 
