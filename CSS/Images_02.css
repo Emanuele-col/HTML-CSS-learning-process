@@ -1,7 +1,49 @@
 @charset "utf-8";
 /* CSS Document */
 
-h1{text-transform: uppercase; font-size: 32px; text-align: center;}
+
+h1{background-image: url("../Images/backgrounds/white-elegant-texture-wallpaper_23-2148421854.jpg"); 
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	text-transform: uppercase; font-size: 32px; text-align: center; 
+	min-width: 630px;}
+
+.background-fixed{background-image: url("../Images/backgrounds/white-elegant-texture-wallpaper_23-2148421854.jpg"); 
+	background-repeat: repeat;
+	background-attachment: fixed;}
+
 p{font-size: 16px;}
+
 figcaption {text-indent: -9999px}
+
+figure{margin: 15px; background-color: aqua}
+
 .float-left{float: left;}
+.clear{clear: left;}
+.center{text-align: center;}
+
+a.sprite_01{display: inline-block;
+	width: 106px; height: 106px;
+	text-indent: -9999px;
+	background-image: url("../Images/buttons/sprite.png");
+	background-position: right top;}
+a.sprite_01:hover{background-position:right bottom;}
+a.sprite_01:active{background-position: center bottom;}
+
+a.sprite_02{display: inline-block;
+	width: 106px; height: 106px;
+	text-indent: -9999px;
+	background-image: url("../Images/buttons/sprite.png");
+	background-position: center top;}
+a.sprite_02:hover{background-position: left center;}
+a.sprite_02:active{background-position: left bottom;}
+
+a.sprite_03{display: inline-block;
+	width: 106px; height: 106px;
+	text-indent: -9999px;
+	background-image: url("../Images/buttons/sprite.png");
+	background-position: left top;}
+a.sprite_03:hover{background-position: right center;}
+a.sprite_03:active{background-position: center center;}
+
+div#centra_figure {width:1890px; margin: 15px auto;}
