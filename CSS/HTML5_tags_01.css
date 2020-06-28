@@ -1,3 +1,26 @@
 @charset "utf-8";
-/* CSS Document */
+body{width: 990px; margin: 0 auto; background-image: url("../Images/backgrounds/blue_new.jpg"); background-repeat: no-repeat; background-position: center top; background-attachment: fixed;}
 
+header{text-align: center;}
+
+h1{display: inline; text-transform: uppercase; border: 3px solid black; width: 515px}
+
+nav ul {list-style: none; padding: 0px;}
+li {display: inline; border: 2px solid black; border-radius: 7px; color: black; margin: 15px;}
+li:hover {background-color: red; border-width: 4px;}
+a{text-decoration: none;}
+
+.center{margin: 15px auto; text-align: center;}
+.float{float: left;}
+.clear{clear: left;}
+
+main {text-align: center; margin: 0 auto;}
+h2{margin: 15px 15px 0px 15px;}
+h4{margin:  0px 15px 15px 15px;}
+
+figcaption{text-indent: -9999px; position: absolute;}
+figure{margin: 0;}
+article img {margin: 15px;}
+article p {font-weight: bold; background-color:rgba(199,225,228,0.50); display: inline-block; width: 300px; margin: 0px 15px 15px 15px}
+
+footer{display: block; background-color: rgba(157,157,157,0.70);}
