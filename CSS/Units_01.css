@@ -1,3 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{font-size: 16px;}
+
+div{background-color: red; border: 2px solid black; margin: 15px;}
+
+/* ---------unità di misura--------- */
+
+#div1 {width: 500px;} /* i px sono un unità assoluta e non dipendono da altri elementi */
+
+#div2 {width: 50%;} /* le % sono relative e dipendono dal BLOCO GENITORE che contiene l' elemento */
+
+#div3 {width: 50vw;} /* i vw sono relativi alla dimensione di TUTTO lo schermo e NON dal blocco genitore */
+
+#div4 {width: 50em;} /* gli em sono relativi al FONT dell' elemento GENITORE */
+
+#div5 {width: 50rem;} /* i rem sono relativi al FONT dell' elemento ROOT */
