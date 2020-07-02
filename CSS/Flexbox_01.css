@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body{max-width: 2200px; background-color: green; margin: 0px auto;}
+
+h1{text-align: center; text-transform: uppercase; max-width: 2200px;}
+
+div{border-width: 2px; border-style: solid; border-color: black;}
+
+figure{padding: 0px; margin: 0px;}
+img {margin: 15px; max-width: 100%; height: auto;}
+figcaption {margin: 0;margin-bottom: -25px; padding: 0; text-indent: -9999px;}
+p {margin: 15px}
+
+.flex-item-1{background-color:aqua; width: 330px; margin: 15px; flex-grow: 1; text-align: center; border: 2px solid black;}
+
+.flex-item-2{background-color:aqua; width: 330px; margin: 15px; flex-grow: 1; text-align: center; border: 2px solid black;}
+
+.flex-item-3{background-color:aqua; width: 330px; margin: 15px; flex-grow: 1; text-align: center; border: 2px solid black;}
+
+.flex_container{display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				align-content: center;
+				flex-wrap:wrap;}
+
