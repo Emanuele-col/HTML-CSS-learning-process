@@ -1,3 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 
+.grid-item{background-color:aqua; border: 2px solid black; margin: 15px}
+
+.grid-container-1{
+	display: grid; 
+	grid-template-columns: repeat(3, 300px);
+	grid-auto-rows: minmax(300px, auto);
+	/* grid-column-gap: 15px;
+	grid-row-gap: 15px; */
+	grid-gap:15px;
+	justify-content: center;}
+
+.grid-item-1{
+	grid-column: 1 / -1;
+}
+
+.grid-item-2{
+	grid-column: span 2;
+}
+
+.grid-item-3{
+	grid-row: span 2;
+}
+
+.grid-item-4{
+	grid-column: span 2;
+}
+
+.grid-item-7{
+	grid-row: span 2;
+}  
