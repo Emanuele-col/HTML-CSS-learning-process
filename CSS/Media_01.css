@@ -1,3 +1,39 @@
 @charset "utf-8";
 /* CSS Document */
+body{line-height: 1.2;}
 
+figure{padding: 0px; margin: 0px;}
+figcaption{text-indent: -9999px; margin: -15px; padding: 0px;}
+.h2-fig{text-transform: uppercase;}
+
+header{position: relative; background-color: rgba(28,155,226,0.71)}
+
+@supports (position: sticky){
+header {position: sticky; top: 0;}
+}
+
+h1{text-transform: uppercase; font-family: sans-serif; text-align: center; font-size: 2rem;}
+p{font-size: 1rem;}
+h2{font-size: 1.5rem;}
+ul {list-style: none; text-align: center; padding: 0px;}
+li{display: inline-block; margin: 0 15px; border: 2px solid black; width: 63px;}
+img {max-width: 100%; height: auto; border-radius: 10px;}
+
+@media (max-width: 1800px){
+	.flex-container {display: flex; flex-direction: row; justify-content: center; align-items: center; text-align: center; flex-wrap: wrap;}
+	.flex-item {padding: 0px; margin: 15px; width: 300px; background-color: aqua; text-align: center; flex-grow: 1;}
+	.flex-item1 {}
+	.flex-item2 {}
+	.flex-item3 {}
+}
+
+@media (max-width: 300px){
+	p{font-size: 0.875rem;}
+	h2{font-size: 1.25rem;}
+	h1{font-size: 1.5rem;}
+	li{margin: 0 5px;}
+}
+
+@media (min-width:380px) and (max-width: 676px) {
+	.flex.item{padding: 0px; max-width: 270px;}
+}
